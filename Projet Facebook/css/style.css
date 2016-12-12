@@ -1,0 +1,143 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+a{
+  color: #4A7ED4;
+  text-decoration: none;
+}
+
+/************Mise en page du header************/
+
+header {
+  background-color: #3B5998;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+header a{
+  font-size: 0.8em;
+}
+
+header p {
+  padding: 5px;
+}
+
+h1 {
+  font-size: 3em;
+}
+.connexion{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;;
+}
+
+header input{
+  border-color: #29487D;
+}
+
+header input[type="submit"]{
+  background-color: #4267B2;
+  color: white;
+  border-radius: 3px;
+}
+
+label[for="connexion"]{
+  display: none;
+}
+
+/************Page principale************/
+
+.Site-content {
+  flex: 1;
+  background: linear-gradient(180deg, #ffffff, #D7DBEA);
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+p{
+  padding: 22x 5px 2px 0;
+}
+.image{
+  text-align: center;
+  font-size: 1em;
+  width: 50%;
+}
+
+.image h2{
+  color: #3B5998;
+}
+
+.inscription{
+  width: 50%;
+}
+
+.civil{
+  width: 180px;
+
+}
+.civil2 {
+  width: 380px;
+}
+
+.civil,.civil2{
+  height: 30px;
+  font-size: 1em;
+  margin: 5px 5px 5px 0;
+  padding-left: 10px;
+}
+
+.naissance{
+  font-size: 0.8em;
+}
+
+select{
+  height: 30px;
+}
+
+.texte{
+  font-size: 0.8em;
+  width : 300px;
+}
+
+.valider{
+  background: linear-gradient(180deg, #66AB53, #578843);
+  border: 1px solid #3B6E22;
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  font-size: 1em;
+  color: #fff;
+}
+
+.page{
+  font-size: 0.8em;
+  width: 300px;
+  font-weight: bold;
+}
+/*************pied de page*************/
+
+footer{
+  margin-left: 150px;
+  font-size: 0.8em;
+}
+
+li{
+  padding: 10px;
+}
+.langues{
+  display: flex;
+  justify-content: flex-start;;
+  list-style-type: none;
+
+}

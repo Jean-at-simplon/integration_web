@@ -1,0 +1,62 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+a{
+  color: #4A7ED4;
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+/**********ENTETE DE LA PAGE**************/
+.entete{
+  background-color: #3B5998;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+label[for="connexion"]{
+  display: none;
+}
+
+.nom{
+  font-size: 1.3em;
+}
+
+.connexion{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraphe{
+  margin: 20px 5px 0 5px;
+  border-color: #29487D;
+}
+
+.paragraphe input[type="submit"]{
+  background-color: #4267B2;
+  color: white;
+  border-radius: 3px;
+}
+
+
+/***********PIED DE PAGE***********/
+
+.langues{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tableau{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
